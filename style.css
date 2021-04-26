@@ -5,12 +5,37 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.header {
+/* Quitamos la decoración a todas las etiquetas anclas */
+a {
+  text-decoration: none;
+  cursor: pointer; /*Con esto, cuando pasemos el mouse el cursor cambia de forma*/
+}
+
+/* Al header damos una anchura y altura */
+.header-main {
   width: 100%;
   height: 60 px;
 }
 
-.slide-nav {
+/* Justificamos el contenido a lo que termina el flex */
+.header-nav {
   display: flex;
   justify-content: flex-end;
 }
+
+/* Con esta configuracion los links quedan juntos */
+header nav .nav-right-section {
+  width: 250px; /*Indicamos el ancho de la barra de navegación*/
+  height: auto; /*No indicamos la altura ya que ya dimos la altura a la etiqueta contenedora*/
+  display: flex;
+  list-style: none; /*Quitamos el estilo a la lista*/
+  justify-content: center; /*Justificamos el contenido en el centro*/
+  align-items: center; /*Alineamos los items en el centro para que no queden arriba*/
+}
+
+/*Damos espacios a los links*/
+nav .nav-right-section a {
+  margin-right: 10px;
+  color: blue;
+}
+
