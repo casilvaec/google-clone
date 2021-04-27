@@ -68,3 +68,25 @@ main .main-logo {
 main .main-logo img {
   width: 300px;
 }
+
+main .main-input {
+  width: 530px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+
+main .main-input-container {
+  width: 525px;
+  border-radius: 100px;
+  border: 1px solid #dfe1e5;/*borde contenedor más grande con color similar al de Google*/
+  display: flex;/*Dentro del input-container va a ver tres elementos, esto nos permite alinearlos linealmente*/
+  justify-content: center;
+  align-items: center;
+}
+
+main .main-input .main-input-text {
+  width: 450px;
+  height: 40px;
+  border: none;
+  outline: none;/*con esto quitamos el borde generado al dar click en input*/
+}
