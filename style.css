@@ -39,3 +39,20 @@ nav .nav-right-section a {
   color: blue;
 }
 
+/*Insertando el icono de menú de google*/
+nav .nav-right-section .menu-icon {
+  background-image: url('https://static.thenounproject.com/png/756729-200.png');
+  background-repeat: no-repeat; /*Para evitar que la imagen se repita para llenar el vacío de su contenedor*/
+  background-position: center; /*para que la imagen quede centrada dentro de su contenedor*/
+  background-size: contain;/*contenedor de la imagen*/
+  width: 25px;/*Ancho*/
+  height: 25px;/*altura*/
+}
+
+/*Aplicando estilos a mi imagen de perfil de google*/
+nav .nav-right-section img {
+  border-radius: 50%; /*para redondear imagen*/
+  margin-left: 10px; /*porque la imagen está muy pegada al icono de menú*/
+
+
+}
