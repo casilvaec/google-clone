@@ -53,6 +53,18 @@ nav .nav-right-section .menu-icon {
 nav .nav-right-section img {
   border-radius: 50%; /*para redondear imagen*/
   margin-left: 10px; /*porque la imagen está muy pegada al icono de menú*/
+}
 
+main {
+  margin-top: 150px;
+  text-align: center;/*Todo el contenido de main se centre*/
+}
 
+main .main-logo {
+  width: 530px;
+  margin: 0 auto;/*0 auto divide entre 2 el espacio vacío que queda en el contenedor, lo centra*/
+}
+
+main .main-logo img {
+  width: 300px;
 }
