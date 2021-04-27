@@ -143,3 +143,36 @@ Lo que va a hacer es el estilo que especificamos dentro de las llaves*/
   color: #222;
 }
 
+footer {
+  width: 100%;
+  height: 50px;
+  position: absolute;/*Con esto nos aseguramos que el footer siempre va a estar abajo de la página*/
+  bottom: 0;/*Con esto nos aseguramos que el footer siempre va a estar abajo de la página*/
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  font-size: 13px;
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+}
+
+footer ul {
+  margin: 10px;
+  list-style: none;
+  display: flex;
+  padding-left: 0;
+}
+
+.footer-left {
+  justify-self: left;
+}
+
+.footer-right {
+  justify-self: right;
+}
+
+footer li a {
+  margin: 10px;
+  color: #5f6368;
+
+}
